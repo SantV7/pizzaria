@@ -6,7 +6,7 @@ header {
     background-position: center center;
     height: 100vh;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95.5%, 0 100%);
 }
 
 header > #area_navegation {
