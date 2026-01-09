@@ -27,3 +27,16 @@ header > #area_navegation > .logo {
 header > nav {
     margin-top: 20px;
 }
+
+header > .area_text {
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.466);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > .area_text > #text-wellcome {
+    color: white;
+    text-transform: uppercase;
+}

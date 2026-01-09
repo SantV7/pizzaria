@@ -12,6 +12,12 @@ const Header = () => {
               <Navbar />
               <Account />
             </div>
+
+            <div className="area_text">
+              <div id="text-wellcome">
+                <h3>Sunday Pizza Sunday</h3>
+              </div>
+            </div>
         </header>    
     </>
   )
