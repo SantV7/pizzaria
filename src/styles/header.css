@@ -29,14 +29,44 @@ header > nav {
 }
 
 header > .area_text {
+    margin-top: 40px;
     padding: 5px;
-    background-color: rgba(128, 128, 128, 0.466);
+
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column nowrap;
+    gap: 33px;
 }
 
 header > .area_text > #text-wellcome {
+    font-size: 30.5px;
     color: white;
     text-transform: uppercase;
+}
+
+header > .area_text > .paragraph_text   {
+    font-size: 18.8px;
+    color: orange;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+header > .area_text > .btnSelectPlan > a {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.537);
+    padding: 14px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+    transition:  ease 0.27s;
+    
+}
+
+header > .area_text > .btnSelectPlan > a:hover {
+    background-color: rgb(255, 153, 0);
 }

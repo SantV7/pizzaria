@@ -14,16 +14,16 @@ const Header = () => {
             </div>
 
             <div className="area_text">
-              <div id="text-wellcome">
-                <h3>Sunday Pizza Sunday</h3>
-              </div>
-              <div className="paragraph_text">
-                <p id='p-color-orange'>Sua pizza do jeito, sem atrasos</p>
-              </div>
+                <div id="text-wellcome">
+                   <h3>Sunday Pizza Sunday</h3>
+                </div>
+                <div className="paragraph_text">
+                   <p id='p-color-orange'>Sua pizza do jeito, sem atrasos</p>
+                </div>
 
-              <div className="btnSelectPlan">
-                <a href="#">Escolha agora mesmo seu plano</a>
-              </div>
+                <div className="btnSelectPlan">
+                   <a href="#">Escolha agora mesmo seu plano</a>
+                </div>
             </div>
         </header>    
     </>
