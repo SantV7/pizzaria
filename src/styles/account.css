@@ -1,0 +1,28 @@
+#area-account {
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+#area-account > a {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 600;
+    transition: ease 0.3s;
+    font-size: 1.2em;
+    padding: 6px 14px;
+    background-color: rgb(71, 62, 62);
+    color: white;
+}
+
+#area-account > a:hover{
+    cursor: pointer;
+    background-color: rgb(125, 107, 107);
+    
+}
+#area-account > #icon_account {
+    cursor: pointer;
+    color: white;
+    margin-top: 3.5px;
+}

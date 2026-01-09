@@ -1,0 +1,29 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0)), url(../assets/img/secao08-background-capa.jpg);
+    padding: 10px 13px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+}
+
+header > #area_navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -25px;
+}
+header > #area_navegation > .logo {
+    background-image: url(../assets/img/pizeria_logo.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+}
+
+header > nav {
+    margin-top: 20px;
+}
