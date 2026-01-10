@@ -1,7 +1,7 @@
 
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0)), url(../assets/img/secao08-background-capa.jpg);
+#header {
+    background-image: linear-gradient(rgba(36, 34, 60, 0.649), rgba(0, 0, 0, 0)), url(../assets/img/secao08-background-capa.jpg);
     padding: 10px 13px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,14 +12,14 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 95.5%, 0 100%);
 }
 
-header > #area_navegation {
+#header > #area_navegation {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: -25px;
 }
 
-header > #area_navegation > .logo {
+#header > #area_navegation > .logo {
     background-image: url(../assets/img/pizeria_logo.png);
     background-position: center center;
     background-size: cover;
@@ -28,11 +28,11 @@ header > #area_navegation > .logo {
     height: 130px;
 }
 
-header > nav {
+#header > nav {
     margin-top: 20px;
 }
 
-header > .area_text {
+#header > .area_text {
     margin-top: 40px;
     padding: 5px;
     display: flex;
@@ -42,29 +42,30 @@ header > .area_text {
     gap: 33px;
 }
 
-header > .area_text > #text-wellcome {
+#header > .area_text > #text-wellcome {
     font-family: rubik glitch;
     font-size: 30.5px;
     color: white;
     letter-spacing: 1.3px;
     text-align: center;
     padding-bottom: 4px;
-    border-radius: 12.5px;
+    border-radius: 13.5px;
     background-color: rgba(100, 125, 247, 0.088);
     width: 490px;
     text-transform: uppercase;
     border-bottom: 4px solid rgb(255, 200, 0);
 }
 
-header > .area_text > .paragraph_text  {
+#header > .area_text > .paragraph_text  {
     font-size: 22.8px;
     color: orange;
     font-weight: 600;
+    margin-top: -15px;
     font-family: "Sour Gummy", sans-serif;
     margin-bottom: 40px;
 }
 
-header > .area_text > .btnSelectPlan > a {
+#header > .area_text > .btnSelectPlan > a {
     cursor: pointer;
     text-decoration: none;
     background-color: orange;
@@ -78,6 +79,6 @@ header > .area_text > .btnSelectPlan > a {
     transition:  ease 0.27s;
 }
 
-header > .area_text > .btnSelectPlan > a:hover {
+#header > .area_text > .btnSelectPlan > a:hover {
     background-color: rgb(255, 153, 0);
 }

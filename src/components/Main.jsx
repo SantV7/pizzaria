@@ -1,7 +1,19 @@
 import React from 'react'
 import '../styles/main.css'
+import ScrollReveal from 'scrollreveal'
+
 
 const Main = () => {
+
+
+  ScrollReveal().reveal('#main-content', {
+    reset: true ,
+    delay: 135 ,
+    distance: '65px',
+    duration: 100
+  })
+
+
   return (
      <>
         <main id='main-content'>

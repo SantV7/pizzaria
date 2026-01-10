@@ -1,12 +1,21 @@
-import React from 'react'
 import Navbar from './Navbar'
 import Account from './Account'
+import ScrollReveal from 'scrollreveal'
 import '../styles/header.css'
+
+
+  ScrollReveal().reveal('.area_text', {
+    reset: true ,
+    distance: '30px',
+    duration: 1200
+
+
+  })
 
 const Header = () => {
   return (
     <>
-        <header>
+        <header id='header'>
             <div id="area_navegation">
               <div className="logo"></div>
               <Navbar />
