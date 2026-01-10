@@ -9,8 +9,6 @@
 
 #main-content > #promotion-section > #background-left ,#background-right {
     display: none;
-    width: 15%;
-    margin-top: -70px;
 }
 
 #main-content > #promotion-section > .area_info_promotion {
@@ -68,8 +66,11 @@
 
 #main-content > #promotion-section  > .area_info_promotion > #promotional-paragraph {
     font-size: 1.25em;
-    padding-bottom: 140px;
     margin-top: -50px;
+    margin-bottom: 160px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    border-bottom: 4px solid rgba(0, 0, 255, 0.332);
 }
 
 #main-content > #promotion-section > .area_info_promotion > .all-cards >  .cards-days > .name-days {
@@ -95,22 +96,105 @@
 
 
 @media screen and (min-width:768px) {
+
+    #main-content > #promotion-section  > .area_info_promotion > #promotional-paragraph {
+        width: 420px;
+        font-size: 1.4em;
+        text-align: justify;
+    }
     #main-content > #promotion-section > .area_info_promotion > .all-cards  {
         justify-content: space-between;
         flex-flow: row nowrap;
         gap: 190px;
     }
 
-    #main-content > #promotion-section > #background-right {
-        display: block;
-    }
 
-    #main-content > #promotion-section > #background-left {
+    #main-content > #promotion-section > #background-left, #background-right {
         display: block;
-        
+        width: 15%;
+        margin-top: -30px;
     }   
 
+    
+    #main-content > #promotion-section > #background-left > .folha {
+       background-image: url(../assets/img/secao09-folha1.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 140px;
+       height: 140px;
+       position: absolute;
+       top: 300px;
+       left: 120px;
+    }
 
+    #main-content > #promotion-section > #background-left > .tomate-folhas {
+       background-image: url(../assets/img/secao13-detalhe-tomate.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 190px;
+       height: 190px;
+       position: absolute;
+       top: -14px;
+       left: 230px;
+    }
+
+    #main-content > #promotion-section > #background-left > .queijo {
+        background-image: url(../assets/img/secao09-queijo.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 140px;
+       height: 140px;
+       position: absolute;
+       left: 50px;
+       top: 640px;   
+    }
+
+   #main-content > #promotion-section > #background-left > .folhabottom {
+       background-image: url(../assets/img/secao09-folha3.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 140px;
+       height: 140px;
+       position: absolute;
+       left: 200px;
+       top: 880px;              
+   }
+
+    #main-content > #promotion-section > #background-right > .azeite {
+      background-image: url(../assets/img/secao13-azeite.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 140px;
+       height: 140px;
+       position: absolute;
+       right: 165px;
+       top: 50px;
+    }
+
+
+    #main-content > #promotion-section > #background-right > .tomate {
+      background-image: url(../assets/img/secao13-tomate-manjericao-alho.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 200px;
+       height: 140px;
+       position: absolute;
+       right: 35px;
+    }
+
+
+     #main-content > #promotion-section > #background-right > .camarao {
+      background-image: url(../assets/img/secao09-camarao.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 140px;
+       height: 140px;
+       position: absolute;
+       top: 790px;
+       right:135px;
+    }
+    
+    
     #main-content > #promotion-section > .area_info_promotion > .all-cards {
         justify-content: space-between;
         align-items: center;

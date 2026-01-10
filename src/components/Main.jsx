@@ -53,15 +53,22 @@ useEffect(() => {
   return (
      <>
         <main id='main-content'>
+
             <section id='promotion-section'>
                <div id='background-left'>
-                  
+                  <div className="folha"></div>
+                  <div className='tomate-folhas'></div>
+                  <div className="queijo"></div>
+                  <div className="folhabottom"></div>
                </div>
+
+
 
                <div id='center-background' className='area_info_promotion'>
                   <h3 id='promotional'>Promoções aos domingos</h3>
 
                   <p id='promotional-paragraph'>Você adora comer pizza aos domingos a noite? Reunir a família, brindar e saborear a pizza do jeito que você gosta. Nós oferecemos a melhor maneira desta pizza chegar quentinha, na hora certa, sem atrasos e do jeito que você gosta. </p>
+
 
                   <div className="all-cards">
                      <div className='cards-days'>
@@ -88,9 +95,14 @@ useEffect(() => {
             
             
                <div id='background-right'>
-                  
+                  <div className="azeite"></div>
+                  <div className="tomate"></div>
+                  <div className="camarao"></div>
                </div>
             </section>
+
+
+
         </main>
      </>
   )
