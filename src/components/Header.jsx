@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import Account from './Account'
+import { FaBars } from "react-icons/fa";
 import ScrollReveal from 'scrollreveal'
 import '../styles/header.css'
 
@@ -8,8 +8,6 @@ import '../styles/header.css'
     reset: true ,
     distance: '30px',
     duration: 1200
-
-
   })
 
 const Header = () => {
@@ -19,7 +17,7 @@ const Header = () => {
             <div id="area_navegation">
               <div className="logo"></div>
               <Navbar />
-              <Account />
+              <FaBars id='icon_menubar' size={31}/>
             </div>
 
             <div className="area_text">

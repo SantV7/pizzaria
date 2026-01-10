@@ -22,9 +22,7 @@ const Main = () => {
             </section>
 
             <section id='plans-section'>
-             
-
-
+            
 
             </section>
         </main>
