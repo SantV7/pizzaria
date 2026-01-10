@@ -6,10 +6,13 @@ const Main = () => {
      <>
         <main id='main-content'>
             <section id='promotion-section'>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error suscipit aliquam sed obcaecati illo neque sequi fugit cumque voluptatum. Nobis aut quas ducimus ipsum exercitationem atque non consectetur ullam sapiente!
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo tempora sapiente alias, quidem repellendus minus voluptas vitae eaque? Enim, ab odit reprehenderit esse error impedit vel nobis eveniet nihil. Voluptates.
             </section>
 
             <section id='plans-section'>
+             
+
+
 
             </section>
         </main>

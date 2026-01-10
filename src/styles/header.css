@@ -1,3 +1,5 @@
+
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0)), url(../assets/img/secao08-background-capa.jpg);
     padding: 10px 13px;
@@ -5,6 +7,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 95.5%, 0 100%);
 }
@@ -15,6 +18,7 @@ header > #area_navegation {
     justify-content: space-between;
     margin-top: -25px;
 }
+
 header > #area_navegation > .logo {
     background-image: url(../assets/img/pizeria_logo.png);
     background-position: center center;
@@ -31,7 +35,6 @@ header > nav {
 header > .area_text {
     margin-top: 40px;
     padding: 5px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,15 +43,24 @@ header > .area_text {
 }
 
 header > .area_text > #text-wellcome {
+    font-family: rubik glitch;
     font-size: 30.5px;
     color: white;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding-bottom: 4px;
+    border-radius: 12.5px;
+    background-color: rgba(100, 125, 247, 0.088);
+    width: 490px;
     text-transform: uppercase;
+    border-bottom: 4px solid rgb(255, 200, 0);
 }
 
-header > .area_text > .paragraph_text   {
-    font-size: 18.8px;
+header > .area_text > .paragraph_text  {
+    font-size: 22.8px;
     color: orange;
     font-weight: 600;
+    font-family: "Sour Gummy", sans-serif;
     margin-bottom: 40px;
 }
 
@@ -64,7 +76,6 @@ header > .area_text > .btnSelectPlan > a {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
     transition:  ease 0.27s;
-    
 }
 
 header > .area_text > .btnSelectPlan > a:hover {
