@@ -1,0 +1,22 @@
+#planSection {
+    margin-top: 120px;
+    height: 500px;
+    padding-top: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0)), url(../assets/img/secao10-background-secao-pizza.jpg);
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+}
+
+#planSection > .intro-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#planSection > .intro-text > .pizza-section-intro > #pizza-fonrt-rubik {
+    color: rgb(255, 68, 0);
+}
+
+#planSection > .intro-text > .text-p > p {
+    color: white;
+}

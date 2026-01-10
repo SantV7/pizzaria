@@ -4,7 +4,7 @@ import ScrollReveal from 'scrollreveal'
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineTimer } from "react-icons/md";
 import { MdMoneyOff } from "react-icons/md";
-import PlanSection from './PlanSection';
+import PizzaSection from './PizzaSection';
 
 const Main = () => {
 
@@ -101,7 +101,8 @@ useEffect(() => {
                </div>
             </section>
 
-            <PlanSection />
+
+            <PizzaSection />
 
 
 
