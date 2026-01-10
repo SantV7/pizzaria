@@ -37,6 +37,10 @@ useEffect(() => {
 
 
 
+
+
+
+
   return (
      <>
         <main id='main-content'>
@@ -51,21 +55,21 @@ useEffect(() => {
                   <div className="all-cards">
                      <div className='cards-days'>
                         <FaPeopleGroup size={41}/>
-                        <span className='name-days'>Família</span>
+                        <span className='name-days'>Família Reunida</span>
                         <p>Domingo a noite é dia da família se reunir, conversar, rir e saborear uma maravilhosa pizza. Mas agora, você não precisa mais ligar para pedir, nós enviaremos todos os domingos para você.</p>
                      </div>
 
 
                      <div className='cards-days'>
-                        <MdOutlineTimer size={41}/>
-                        <span className='name-days'>Horário</span>
+                        <MdOutlineTimer size={43}/>
+                        <span className='name-days'>Sem demora</span>
                         <p>Sabe aquela sensação de ficar aguardando a pizza chegar e ela nunca chega? Pois é, aqui sua pizza chegará sempre no horário programado por você. Nosso intervalo de espera nunca supera 15 minutos.</p>
                      </div>
 
 
                      <div className='cards-days'>
                         <MdMoneyOff size={41}/>
-                        <span className='name-days'>Preço</span>
+                        <span className='name-days'>Baixo preco</span>
                         <p>Quando o entregador chegar na sua casa, você só recebe, nem precisa pagar. Por um preço justo, você pagará apenas pela frequência que você deseja receber sua pizza.</p>
                      </div>
                   </div>
