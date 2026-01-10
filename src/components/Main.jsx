@@ -16,31 +16,34 @@ useEffect(() => {
 
 
 
-
-
   return (
      <>
         <main id='main-content'>
             <section id='promotion-section'>
-               <h2>Promoções</h2>
-               <div className="area_info_promotion">
-                  <div className='cards-days'>
-                     <span className='name-days'>Domingo</span>
-                  </div>
+               <div id='background-left'>
+                  
+               </div>
 
-                  <div className='cards-days'>
-                     <span className='name-days'>Terça</span>
-                  </div>
+               <div id='center-background' className='area_info_promotion'>
+                  <h3>Promoções</h3>
+                  <div className="all-cards">
+                     <div className='cards-days'>
+                        <span className='name-days'>Domingo</span>
+                     </div>
 
-                  <div className='cards-days'>
-                     <span className='name-days'>Quinta</span>
+                     <div className='cards-days'>
+                        <span className='name-days'>Terça</span>
+                     </div>
+
+                     <div className='cards-days'>
+                        <span className='name-days'>Quinta</span>
+                     </div>
                   </div>
                </div>
-            </section>
-
-            <section id='plans-section'>
-            
-
+               
+               <div id='background-right'>
+                  
+               </div>
             </section>
         </main>
      </>
