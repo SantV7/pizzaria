@@ -17,8 +17,68 @@ const PizzaSection = () => {
           </div>
 
 
+          <article id='sabores-area'>
+              <div className='area-options'>
+                  <div className="pizza-options">
+                      <h3>Sabores Tradicionais</h3>
+                    <ul>
+                        <li>Portuguesa</li>
+                        <li>Mussarela</li>
+                        <li>Calabresa</li>
+                        <li>Napolitana</li>
+                    </ul>
+                  </div>
 
 
+
+                  <div className="pizza-options">
+                      <h3>Bordas</h3>
+                    <ul>
+                        <li>Cheedar</li>
+                        <li>Catupiry</li>
+                        <li>Chocolate amargo</li>
+                        <li>Chocolate Branco</li>
+                    </ul>
+                  </div>                                                      
+
+
+
+                  <div className="pizza-options">
+                      <h3>Sabores Especiais</h3>
+                    <ul>
+                        <li>Camarão</li>
+                        <li>Romeu e julieta</li>
+                        <li>Chocolate</li>
+                        <li>Napolitana</li>
+                    </ul>
+                  </div>
+              </div>
+
+
+              <div>
+                  <div className="pizza-options">
+                      <h3>Sobremesa</h3>
+                    <ul>
+                        <li>Pudim</li>
+                        <li>Mousse de Limão & Maracuja</li>
+                        <li>Sorvete</li>
+                        <li>Tortas</li>
+                    </ul>
+                  </div>
+
+
+                  <div className="pizza-options">
+                      <h3>Sabores Tradicionais</h3>
+                    <ul>
+                        <li>Portuguesa</li>
+                        <li>Mussarela</li>
+                        <li>Calabresa</li>
+                        <li>Napolitana</li>
+                    </ul>
+                  </div>
+
+              </div>
+          </article>
 
         </section>
     </>

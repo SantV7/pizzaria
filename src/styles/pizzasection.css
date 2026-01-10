@@ -20,3 +20,17 @@
 #planSection > .intro-text > .text-p > p {
     color: white;
 }
+
+#planSection > #sabores-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+    @media screen and (min-width: 768px) {
+        #planSection > #sabores-area {
+            justify-content: space-evenly;
+            flex-flow: row nowrap;
+        }      
+    }
