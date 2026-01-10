@@ -1,16 +1,22 @@
+import { useEffect } from 'react';
 import Navbar from './Navbar'
 import { FaBars } from "react-icons/fa";
 import ScrollReveal from 'scrollreveal'
 import '../styles/header.css'
 
+const Header = () => {
 
+useEffect(() => {
   ScrollReveal().reveal('.area_text', {
     reset: true ,
-    distance: '30px',
-    duration: 1200
+    delay: 15 ,
+    distance: '35px',
+    duration: 875
   })
+}, [])
 
-const Header = () => {
+
+
   return (
     <>
         <header id='header'>
