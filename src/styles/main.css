@@ -116,16 +116,6 @@
     }   
 
     
-    #main-content > #promotion-section > #background-left > .folha {
-       background-image: url(../assets/img/secao09-folha1.png);
-       background-size: contain;
-       background-repeat: no-repeat;
-       width: 140px;
-       height: 140px;
-       position: absolute;
-       top: 300px;
-       left: 120px;
-    }
 
     #main-content > #promotion-section > #background-left > .tomate-folhas {
        background-image: url(../assets/img/secao13-detalhe-tomate.jpg);
@@ -134,8 +124,8 @@
        width: 190px;
        height: 190px;
        position: absolute;
-       top: -14px;
-       left: 230px;
+       top: 40px;
+       left: 130px;
     }
 
     #main-content > #promotion-section > #background-left > .queijo {
@@ -146,7 +136,7 @@
        height: 140px;
        position: absolute;
        left: 50px;
-       top: 640px;   
+       top: 340px;   
     }
 
    #main-content > #promotion-section > #background-left > .folhabottom {
@@ -156,8 +146,8 @@
        width: 140px;
        height: 140px;
        position: absolute;
-       left: 200px;
-       top: 880px;              
+       left: 100px;
+       top: 700px;              
    }
 
     #main-content > #promotion-section > #background-right > .azeite {
@@ -197,6 +187,7 @@
     
     #main-content > #promotion-section > .area_info_promotion > .all-cards {
         justify-content: space-between;
+        margin-top: 70px;
         align-items: center;
     }
 }

@@ -4,6 +4,7 @@ import ScrollReveal from 'scrollreveal'
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineTimer } from "react-icons/md";
 import { MdMoneyOff } from "react-icons/md";
+import PlanSection from './PlanSection';
 
 const Main = () => {
 
@@ -56,7 +57,6 @@ useEffect(() => {
 
             <section id='promotion-section'>
                <div id='background-left'>
-                  <div className="folha"></div>
                   <div className='tomate-folhas'></div>
                   <div className="queijo"></div>
                   <div className="folhabottom"></div>
@@ -100,6 +100,8 @@ useEffect(() => {
                   <div className="camarao"></div>
                </div>
             </section>
+
+            <PlanSection />
 
 
 
