@@ -53,6 +53,10 @@
 }
 
 #main-content > #promotion-section > .area_info_promotion > .all-cards > .cards-days {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 16.5px;
     height: 280px;
     width: 280px;
     border-radius: 10px;
