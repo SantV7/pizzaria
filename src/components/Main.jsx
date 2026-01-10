@@ -18,6 +18,15 @@ useEffect(() => {
 }, [])
 
 useEffect(() => {
+  ScrollReveal().reveal('#main-content', {
+    reset: true ,
+    delay: 135 ,
+    distance: '35px',
+    duration: 1000
+  })
+}, [])
+
+useEffect(() => {
   ScrollReveal().reveal('.all-cards', {
     reset: true ,
     delay: 135 ,
@@ -52,6 +61,8 @@ useEffect(() => {
                <div id='center-background' className='area_info_promotion'>
                   <h3 id='promotional'>Promoções aos domingos</h3>
 
+                  <p id='promotional-paragraph'>Você adora comer pizza aos domingos a noite? Reunir a família, brindar e saborear a pizza do jeito que você gosta. Nós oferecemos a melhor maneira desta pizza chegar quentinha, na hora certa, sem atrasos e do jeito que você gosta. </p>
+
                   <div className="all-cards">
                      <div className='cards-days'>
                         <FaPeopleGroup size={41}/>
@@ -61,7 +72,7 @@ useEffect(() => {
 
 
                      <div className='cards-days'>
-                        <MdOutlineTimer size={43}/>
+                        <MdOutlineTimer size={41}/>
                         <span className='name-days'>Sem demora</span>
                         <p>Sabe aquela sensação de ficar aguardando a pizza chegar e ela nunca chega? Pois é, aqui sua pizza chegará sempre no horário programado por você. Nosso intervalo de espera nunca supera 15 minutos.</p>
                      </div>
