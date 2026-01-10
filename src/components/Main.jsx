@@ -15,7 +15,25 @@ useEffect(() => {
     distance: '65px',
     duration: 1000
   })
-},[])
+}, [])
+
+useEffect(() => {
+  ScrollReveal().reveal('.all-cards', {
+    reset: true ,
+    delay: 135 ,
+    distance: '65px',
+    duration: 1000
+  })
+}, [])
+
+useEffect(() => {
+  ScrollReveal().reveal('#promotional', {
+    reset: true ,
+    delay: 135 ,
+    distance: '65px',
+    duration: 1000
+  })
+}, [])
 
 
 
@@ -28,7 +46,7 @@ useEffect(() => {
                </div>
 
                <div id='center-background' className='area_info_promotion'>
-                  <h3>Promoções</h3>
+                  <h3 id='promotional'>Promoções aos domingos</h3>
 
                   <div className="all-cards">
                      <div className='cards-days'>
@@ -51,8 +69,8 @@ useEffect(() => {
                         <p>Quando o entregador chegar na sua casa, você só recebe, nem precisa pagar. Por um preço justo, você pagará apenas pela frequência que você deseja receber sua pizza.</p>
                      </div>
                   </div>
-
                </div>
+            
             
                <div id='background-right'>
                   

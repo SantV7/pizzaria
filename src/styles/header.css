@@ -9,9 +9,10 @@
     height: 100vh;
     font-family: poppins, Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 53vh;
+    height: 64vh;
     clip-path: polygon(0 0, 100% 0, 100% 95.5%, 0 100%);
     position: relative;
+    margin-bottom: 180px;
 }
 
 #header > #area_navegation {
@@ -22,6 +23,7 @@
 }
 
 #header > #area_navegation > .logo {
+    margin-top: 6.5px;
     background-image: url(../assets/img/pizeria_logo.png);
     background-position: center center;
     background-size: cover;
