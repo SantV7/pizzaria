@@ -7,7 +7,7 @@ const PizzaSection = () => {
 
           <div className="intro-text">
               <div className="pizza-section-intro">
-                 <h2 id='pizza-fonrt-rubik'>SUA PIZZA DO SEU JEITO</h2>
+                 <h2 id='pizza-font-rubik'>SUA PIZZA DO SEU JEITO</h2>
               </div>
 
               <div className="text-p">
@@ -16,7 +16,6 @@ const PizzaSection = () => {
                     como chegará sua pizza.</p>
               </div>
           </div>
-
 
 
           <article id='sabores-area'>
