@@ -5,6 +5,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineTimer } from "react-icons/md";
 import { MdMoneyOff } from "react-icons/md";
 import PizzaSection from './PizzaSection';
+import PizzaCarrossel from './PizzaCarrossel';
 
 
 const Main = () => {
@@ -64,28 +65,36 @@ useEffect(() => {
                <div id='center-background' className='area_info_promotion'>
                   <h3 id='promotional'>Promoções aos domingos</h3>
 
-                  <p id='promotional-paragraph'>Você adora comer pizza aos domingos a noite? Reunir a família, brindar e saborear a pizza do jeito que você gosta. Nós oferecemos a melhor maneira desta pizza chegar quentinha, na hora certa, sem atrasos e do jeito que você gosta. </p>
+                  <p id='promotional-paragraph'>Você adora comer pizza aos domingos a noite? 
+                     Reunir a família, brindar e saborear a pizza do jeito que você gosta. Nós
+                      oferecemos a melhor maneira desta pizza chegar quentinha, na hora certa, 
+                      sem atrasos e do jeito que você gosta. </p>
 
 
                   <div className="all-cards">
                      <div className='cards-days'>
                         <FaPeopleGroup size={41}/>
                         <span className='name-days'>Família Reunida</span>
-                        <p>Domingo a noite é dia da família se reunir, conversar, rir e saborear uma maravilhosa pizza. Mas agora, você não precisa mais ligar para pedir, nós enviaremos todos os domingos para você.</p>
+                        <p>Domingo a noite é dia da família se reunir, conversar, rir e saborear
+                            uma maravilhosa pizza. Mas agora, você não precisa mais ligar para pedir,
+                             nós enviaremos todos os domingos para você.</p>
                      </div>
 
 
                      <div className='cards-days'>
                         <MdOutlineTimer size={41}/>
                         <span className='name-days'>Sem demora</span>
-                        <p>Sabe aquela sensação de ficar aguardando a pizza chegar e ela nunca chega? Pois é, aqui sua pizza chegará sempre no horário programado por você. Nosso intervalo de espera nunca supera 15 minutos.</p>
+                        <p>Sabe aquela sensação de ficar aguardando a pizza chegar e ela nunca chega?
+                            Pois é, aqui sua pizza chegará sempre no horário programado por você. Nosso 
+                            intervalo de espera nunca supera 15 minutos.</p>
                      </div>
 
 
                      <div className='cards-days'>
                         <MdMoneyOff size={41}/>
                         <span className='name-days'>Baixo preco</span>
-                        <p>Quando o entregador chegar na sua casa, você só recebe, nem precisa pagar. Por um preço justo, você pagará apenas pela frequência que você deseja receber sua pizza.</p>
+                        <p>Quando o entregador chegar na sua casa, você só recebe, nem precisa pagar.
+                            Por um preço justo, você pagará apenas pela frequência que você deseja receber sua pizza.</p>
                      </div>
                   </div>
                </div>
@@ -101,6 +110,7 @@ useEffect(() => {
 
             <PizzaSection />
 
+            <PizzaCarrossel />
 
         </main>
      </>

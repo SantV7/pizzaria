@@ -1,0 +1,27 @@
+#pizzacarrossel {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.921) , rgba(18, 20, 33, 0.921)) ,url(../assets/img/background-pizzas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#pizzacarrossel > .introduction-text > .intro-text-info > h3 {
+    font-family: rubik glitch, poppins, Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: 2.63em;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-shadow: 3.45px 3.45px 1px rgb(239, 69, 12);
+    margin-top: 75px;
+    margin-bottom: 90px;
+}
+
+#pizzacarrossel > .introduction-text >  .intro-text-p {
+    color: white;
+    font-size: 1.3em;
+}
+
