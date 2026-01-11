@@ -1,11 +1,15 @@
 #planSection {
     margin-top: 120px;
     padding-top: 90px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0)), url(../assets/img/secao10-background-secao-pizza.jpg);
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.605)), url(../assets/img/secao10-background-secao-pizza.jpg);
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #planSection > .intro-text {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,19 +18,23 @@
 
 #planSection > .intro-text > .pizza-section-intro > #pizza-fonrt-rubik {
     color: rgb(255, 68, 0);
-    border-radius: 10px;
-    border-bottom: 4px solid rgb(255, 166, 0);
+    border-radius: 5px;
+    border-bottom: 4px solid rgba(252, 50, 0, 0.466);
     font-family: rubik glitch, Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.525);
-    font-size: 37px;
+    font-size: 43px;
     letter-spacing: 1.8px;
     margin-bottom: 90px;
-    background-color: rgba(196, 196, 250, 0.096);
     padding: 2.5px 10px;
 }
 
 #planSection > .intro-text > .text-p > p {
+    font-size: 22px;
+    width: 500px;
     color: white;
+    margin-bottom: 88px;
+    text-align: center;
+    
 }
 
 #planSection > #sabores-area {
@@ -36,9 +44,50 @@
     flex-flow: column nowrap;
 }
 
-    @media screen and (min-width: 768px) {
+#planSection > #sabores-area > .area-options {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    gap: 110px;
+    margin-bottom: 140px;
+}
+#planSection > #sabores-area > .area-options > .pizza-options {
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-radius: 18px;
+    padding:10px;
+}
+
+#planSection > #sabores-area > .area-options > .pizza-options > h3 {
+    color: rgb(255, 187, 0);
+    font-size: 1.56em;
+    margin-bottom: 14px;
+}
+
+
+#planSection > #sabores-area > .area-options > .pizza-options > ul > li {
+    list-style: none;
+    border-radius: 9px;
+    border-bottom: 2px solid rgba(141, 141, 252, 0.673);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.311);
+    background-color: rgba(216, 216, 255, 0.056);
+    font-size: 19.35px;
+    letter-spacing: 0.5px;
+    padding: 8px 14px;
+    margin-top: 25px;
+    
+}
+
+    @media screen and (min-width: 908px) {
         #planSection > #sabores-area {
             justify-content: space-evenly;
             flex-flow: row nowrap;
-        }      
+        }     
+        
+        #planSection > #sabores-area > .area-options {
+            display: flex;
+            margin-top: 40px;
+            flex-flow: row nowrap;
+            gap: 120px;
+}
     }

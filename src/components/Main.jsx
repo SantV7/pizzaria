@@ -102,7 +102,6 @@ useEffect(() => {
             <PizzaSection />
 
 
-
         </main>
      </>
   )
