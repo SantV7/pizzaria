@@ -22,6 +22,7 @@
 }
 
 #main-content > #promotion-section > .area_info_promotion  > h3 {
+    margin-top: 65px;
     color: rgb(255, 65, 65);
     font-family: rubik glitch, Arial, Helvetica, sans-serif;
     letter-spacing: 4.5px;

@@ -6,6 +6,7 @@ import { MdOutlineTimer } from "react-icons/md";
 import { MdMoneyOff } from "react-icons/md";
 import PizzaSection from './PizzaSection';
 
+
 const Main = () => {
 
 
@@ -39,15 +40,11 @@ useEffect(() => {
 useEffect(() => {
   ScrollReveal().reveal('#promotional', {
     reset: true ,
-    delay: 135 ,
-    distance: '65px',
+    distance: '60px',
+    delay: 200 ,
     duration: 1000
   })
 }, [])
-
-
-
-
 
 
 

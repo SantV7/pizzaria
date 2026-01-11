@@ -1,9 +1,8 @@
 #planSection {
     margin-top: 120px;
-    height: 500px;
     padding-top: 90px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0)), url(../assets/img/secao10-background-secao-pizza.jpg);
-    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
 }
 
 #planSection > .intro-text {
@@ -15,6 +14,15 @@
 
 #planSection > .intro-text > .pizza-section-intro > #pizza-fonrt-rubik {
     color: rgb(255, 68, 0);
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(255, 166, 0);
+    font-family: rubik glitch, Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.525);
+    font-size: 37px;
+    letter-spacing: 1.8px;
+    margin-bottom: 90px;
+    background-color: rgba(196, 196, 250, 0.096);
+    padding: 2.5px 10px;
 }
 
 #planSection > .intro-text > .text-p > p {
