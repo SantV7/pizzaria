@@ -5,7 +5,6 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineTimer } from "react-icons/md";
 import { MdMoneyOff } from "react-icons/md";
 import PizzaSection from './PizzaSection';
-import PizzaCarrossel from './PizzaCarrossel';
 
 
 const Main = () => {
@@ -106,10 +105,7 @@ useEffect(() => {
                </div>
             </section>
 
-
             <PizzaSection />
-
-            <PizzaCarrossel />
 
         </main>
      </>
