@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column;
+    flex-flow: column nowrap;
     gap: 130px;
     font-family: poppins, Arial, Helvetica, sans-serif;
 }
@@ -92,25 +92,31 @@
 
 #main-content > #promotion-section > .area_info_promotion  > .all-cards > .cards-days > p {
     margin-top: 35px;
-    font-size: 1.29em;
-    hyphens: auto;
-  
+    font-size: 1.13em;
     text-align: justify;
 }
 
 
 
-@media screen and (min-width:908px) {
+
+
+
+
+@media screen and (min-width:768px) {
     
+
     #main-content > #promotion-section  > .area_info_promotion > #promotional-paragraph {
         width: 420px;
         font-size: 1.4em;
         text-align: justify;
     }
+
     #main-content > #promotion-section > .area_info_promotion > .all-cards  {
-        justify-content: space-between;
-        flex-flow: row nowrap;
-        gap: 190px;
+        display: flex;
+        
+        
+        justify-content: center;
+       
     }
 
 
@@ -130,11 +136,11 @@
        height: 190px;
        position: absolute;
        top: 40px;
-       left: 130px;
+       left: 26px;
     }
 
     #main-content > #promotion-section > #background-left > .queijo {
-        background-image: url(../assets/img/secao09-queijo.jpg);
+       background-image: url(../assets/img/secao09-queijo.jpg);
        background-size: contain;
        background-repeat: no-repeat;
        width: 140px;
@@ -162,20 +168,10 @@
        width: 140px;
        height: 140px;
        position: absolute;
-       right: 165px;
+       right: 65px;
        top: 50px;
     }
 
-
-    #main-content > #promotion-section > #background-right > .tomate {
-      background-image: url(../assets/img/secao13-tomate-manjericao-alho.jpg);
-       background-size: contain;
-       background-repeat: no-repeat;
-       width: 200px;
-       height: 140px;
-       position: absolute;
-       right: 35px;
-    }
 
 
      #main-content > #promotion-section > #background-right > .camarao {

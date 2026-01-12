@@ -98,7 +98,7 @@
     background-color: rgb(255, 153, 0);
 }
 
-@media screen and (min-width:908px) {
+@media screen and (min-width:1024px) {
     #header  > #area_navegation >  nav {
         display: block;
     }

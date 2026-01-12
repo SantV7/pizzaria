@@ -1,11 +1,13 @@
 #pizzacarrossel {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.921) , rgba(18, 20, 33, 0.921)) ,url(../assets/img/background-pizzas.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.964) , rgba(7, 10, 26, 0.932)) ,url(../assets/img/background-pizzas.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 700px;
+    width: 100%;
     display: flex;
     justify-content: center;
+   
 }
 
 
@@ -25,3 +27,78 @@
     font-size: 1.3em;
 }
 
+
+#pizzacarrossel  .carrossel-pizza {
+    overflow-x: auto;
+    background-color: rgba(93, 105, 149, 0.252);
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pizzacarrossel  .carrossel-pizza::-webkit-scrollbar {
+    display: none;
+}
+
+#pizzacarrossel  .carrossel-pizza > .area-products {
+    display: flex;
+    gap: 6px;
+    animation: spin 4s infinite linear;
+    flex-flow: row nowrap;background-color: gray;
+}
+
+#pizzacarrossel  .carrossel-pizza > .area-products {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #pizza-peperoni {
+    background-image: url(../assets/img/pizza-type-two.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #pizza-calabresa {
+    background-image: url(../assets/img/pizza-calabresa.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #pizza-doce {
+    background-image: url(../assets/img/pizza-mista.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #pizza-queijo-bolonhesa {
+    background-image: url(../assets/img/pizza-type-3.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #drink-strawberry {
+    background-image: url(../assets/img/drink-strawberry.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#pizzacarrossel  .carrossel-pizza > .area-products > #drink-orange {
+    background-image: url(../assets/img/drink-orange.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

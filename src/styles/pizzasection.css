@@ -2,10 +2,11 @@
     margin-top: 120px;
     padding-top: 90px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.605)), url(../assets/img/secao10-background-secao-pizza.jpg);
-    clip-path: polygon(0 3.4%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 3.8%, 100% 0, 100% 100%, 0 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
 }
 
 #planSection > .intro-text {
@@ -75,7 +76,12 @@
     margin-top: 28px;
 }
 
-    @media screen and (min-width: 908px) {
+
+
+
+
+
+    @media screen and (min-width: 1024px) {
         #planSection > #sabores-area {
             justify-content: space-evenly;
             flex-flow: row nowrap;

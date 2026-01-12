@@ -102,7 +102,6 @@ useEffect(() => {
             
                <div id='background-right'>
                   <div className="azeite"></div>
-                  <div className="tomate"></div>
                   <div className="camarao"></div>
                </div>
             </section>

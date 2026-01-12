@@ -54,40 +54,7 @@ const PizzaSection = () => {
               </div>
 
 
-              <div className='area-options'>
-                  <div className="pizza-options">
-                      <h3>Sobremesa</h3>
-                    <ul>
-                        <li>Pudim</li>
-                        <li>Mousse de Limão & Maracuja</li>
-                        <li>Sorvete</li>
-                        <li>Tortas</li>
-                    </ul>
-                  </div>
-
-
-                  <div className="pizza-options">
-                      <h3>Sucos</h3>
-                    <ul>
-                        <li>Maracujá</li>
-                        <li>Morango</li>
-                        <li>Laranja</li>
-                        <li>Graviola</li>
-                    </ul>
-                  </div>
-
-
-                  <div className="pizza-options">
-                      <h3>Refrigerantes</h3>
-                    <ul>
-                        <li>Coca-Cola</li>
-                        <li>Sprite</li>
-                        <li>Fanta Laranja</li>
-                        <li>Pepsi</li>
-                    </ul>
-                  </div>
-
-              </div>
+      
           </article>
 
         </section>
