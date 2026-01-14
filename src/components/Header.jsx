@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './Navbar'
 import { FaBars } from "react-icons/fa";
 import ScrollReveal from 'scrollreveal'
@@ -17,6 +17,8 @@ useEffect(() => {
 
 
 
+const [menuMobileState, setMenuMobileState] = useState(true)
+
 
 
 
@@ -25,8 +27,14 @@ useEffect(() => {
         <header id='header'>
             <div id="area_navegation">
               <div className="logo"></div>
-              <Navbar />
-              <FaBars id='icon_menubar' size={31}/>
+             
+
+              {menuMobileState 
+                ? <Navbar />
+                : ''
+              }
+
+              <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={31}/>
             </div>
 
             <div className="area_text">
