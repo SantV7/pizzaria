@@ -52,6 +52,7 @@
 
 #main-content > #promotion-section > .area_info_promotion  > .all-cards {
     display: flex;
+    
     align-items: center;
     justify-content: center;
     flex-flow: column nowrap;

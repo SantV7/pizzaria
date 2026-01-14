@@ -2,7 +2,7 @@
     margin-top: 120px;
     padding-top: 90px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.605)), url(../assets/img/secao10-background-secao-pizza.jpg);
-    clip-path: polygon(0 3.8%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 2.6%, 100% 0, 100% 100%, 0 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,6 +10,7 @@
 }
 
 #planSection > .intro-text {
+    font-family: poppins, Arial, Helvetica, sans-serif;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -19,8 +20,8 @@
 
 #planSection > .intro-text > .pizza-section-intro > #pizza-font-rubik {
     color: rgb(255, 68, 0);
-    border-radius: 5px;
-    border-bottom: 4px solid rgba(252, 164, 0, 0.703);
+    border-radius: 4px;
+    border-bottom: 4px solid rgba(252, 164, 0, 0.603);
     font-family: rubik glitch, Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.525);
     font-size: 43px;
@@ -28,6 +29,7 @@
     margin-bottom: 90px;
     padding: 9.5px 11px;
 }
+
 
 #planSection > .intro-text > .text-p > p {
     font-size: 22px;
@@ -40,6 +42,7 @@
 
 #planSection > #sabores-area {
     display: flex;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -60,17 +63,25 @@
 
 #planSection > #sabores-area > .area-options > .pizza-options > h3 {
     color: rgb(255, 187, 0);
-    font-size: 1.56em;
+    font-size: 1.94em;
     margin-bottom: 14px;
 }
 
+#planSection > #sabores-area > .area-options > .pizza-options > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
 
 #planSection > #sabores-area > .area-options > .pizza-options > ul > li {
+    text-align: center;
     list-style: none;
-    border-radius: 9px;
-    border-bottom: 2px solid rgba(141, 141, 252, 0.504);
+    width: 70.8%;
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(141, 141, 252, 0.244);
     color: white;
-    font-size: 19.35px;
+    font-size: 20.35px;
     letter-spacing: 0.5px;
     padding: 8px 14px;
     margin-top: 28px;
