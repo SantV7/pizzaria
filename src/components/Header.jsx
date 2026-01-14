@@ -29,10 +29,12 @@ const [menuMobileState, setMenuMobileState] = useState(true)
               <div className="logo"></div>
              
 
-              {menuMobileState 
-                ? <Navbar />
-                : ''
-              }
+              <div className="area_menu">
+                {menuMobileState
+                  ? <Navbar />
+                  : ''
+                }
+              </div>
 
               <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={31}/>
             </div>

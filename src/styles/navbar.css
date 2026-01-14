@@ -2,6 +2,9 @@ nav {
     margin-top: -18px;
 }
 
+#header >#area_navegation > .area_menu  {
+    height: 200px;
+}
 nav > ul {
     display: flex;
     flex-flow: column nowrap;
