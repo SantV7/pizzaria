@@ -38,7 +38,7 @@ useEffect(() => {
                 </div>
 
                 <div className="btnSelectPlan">
-                   <a href="#">Escolha agora mesmo seu plano</a>
+                   <a href="#">Venha comer as melhores Pizzas da cidade</a>
                 </div>
             </div>
         </header>    
