@@ -4,16 +4,14 @@ import '../styles/navbar.css'
 const Navbar = () => {
 
 
-
   
   return (
     <>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Promoções</a></li>
-                <li><a href="#">Pizzas</a></li>
-                <li><a href="#">Planos</a></li>
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#promotion-section">Promoções</a></li>
+                <li><a href="#planSection">Pizzas</a></li>
             </ul>
         </nav>    
     </>
