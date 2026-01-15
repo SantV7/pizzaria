@@ -11,13 +11,19 @@ useEffect(() => {
     reset: true ,
     delay: 15 ,
     distance: '35px',
-    duration: 875
+    duration: 945
   })
 }, [])
 
 
 
+
 const [menuMobileState, setMenuMobileState] = useState(true)
+
+
+
+
+
 
 
 
@@ -27,13 +33,15 @@ const [menuMobileState, setMenuMobileState] = useState(true)
         <header id='header'>
             <div id="area_navegation">
               <div className="logo"></div>
-             
+
+              <Navbar />
 
               <div className="area_menu">
-                {menuMobileState
+                {!menuMobileState
                   ? <Navbar />
                   : ''
                 }
+
               </div>
 
               <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={31}/>

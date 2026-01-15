@@ -1,9 +1,9 @@
 nav {
-    margin-top: -18px;
+    margin-top: 27px;
 }
 
 #header >#area_navegation > .area_menu  {
-    height: 200px;
+    
 }
 nav > ul {
     display: flex;
@@ -30,11 +30,15 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
     border-bottom: 3px solid orange;
-    background-color: rgba(205, 205, 248, 0.148);
+    background-color: rgba(205, 205, 248, 0.056);
 }
 
-@media screen and (min-width:768px) {
-    
+@media screen and (min-width:828px) {
+    nav {
+        display: block;
+        margin-top: -30px;
+    }
+
     nav > ul {
         flex-flow: row nowrap;
     }

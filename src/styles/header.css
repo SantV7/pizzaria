@@ -4,10 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
     font-family: poppins, Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 67vh;
+    height: 75vh;
     clip-path: polygon(0 0, 100% 0, 100% 95.5%, 0 100%);
     position: relative;
     margin-bottom: 180px;
@@ -18,6 +17,12 @@
     align-items: center;
     justify-content: space-between;
     margin-top: -25px;
+    margin-bottom: 80px;
+}
+
+#header > #area_navegation > .mobile-none {
+    color: blue;
+    background-color: gray;
 }
 
 #header > #area_navegation > .logo {
@@ -89,18 +94,28 @@
     background-color: rgb(255, 153, 0);
 }
 
-@media screen and (min-width:768px) {
-    #header  > #area_navegation >  nav {
-        display: block;
-    }
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:828px) {
     #header > .area_text > #text-wellcome {
         width: 495px;
         font-size: 29.75px;
         padding: 5px 10px;
     }
 
-     #header  > #area_navegation > #icon_menubar {
+
+    #header > #area_navegation > nav {
+        margin-right: -240px;
+    }
+    #header > #area_navegation > #icon_menubar {
         display: none;
-     }
+    }
 }
