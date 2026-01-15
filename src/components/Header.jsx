@@ -6,14 +6,17 @@ import '../styles/header.css'
 
 const Header = () => {
 
-useEffect(() => {
-  ScrollReveal().reveal('.area_text', {
-    reset: true ,
-    delay: 15 ,
-    distance: '35px',
-    duration: 945
-  })
-}, [])
+
+
+    useEffect(() => {
+       ScrollReveal().reveal('.area_text', {
+          reset: true ,
+          delay: 15 ,
+          distance: '35px',
+          duration: 945
+       })
+    }, [])
+
 
 
 

@@ -16,17 +16,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -25px;
     margin-bottom: 80px;
 }
 
-#header > #area_navegation > .mobile-none {
-    color: blue;
-    background-color: gray;
-}
 
 #header > #area_navegation > .logo {
-    margin-top: 6.5px;
+    margin-top: -116.5px;
     background-image: url(../assets/img/pizeria_logo.png);
     background-position: center center;
     background-size: cover;
@@ -38,9 +33,10 @@
 
 #header  > #area_navegation > #icon_menubar {
    color: white;
-   margin-top: -21.5px;
+   margin-top: -130.5px;
    cursor: pointer;
 }
+
 
 #header > .area_text {
     margin-top: 40px;
@@ -111,8 +107,13 @@
         padding: 5px 10px;
     }
 
+     #header > #area_navegation {
+        margin-top: 100px;
+     }
 
+    
     #header > #area_navegation > nav {
+        margin-top: -140px;
         margin-right: -240px;
     }
     #header > #area_navegation > #icon_menubar {
