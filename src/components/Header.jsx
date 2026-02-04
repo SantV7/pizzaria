@@ -36,9 +36,17 @@ const Header = () => {
 
               <Navbar />
 
+              {
+               menuMobileState
+               ? (
+                  <Navbar />
+               )
+               : ''
+              }
+
     
 
-              <FaBars id='icon_menubar' size={32}/>
+              <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={32}/>
             </div>
 
             <div className="area_text">
