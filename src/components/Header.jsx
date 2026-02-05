@@ -6,8 +6,6 @@ import '../styles/header.css'
 
 const Header = () => {
 
-
-
     useEffect(() => {
        ScrollReveal().reveal('.area_text', {
           reset: true ,
@@ -18,14 +16,7 @@ const Header = () => {
     }, [])
 
 
-    const [menuMobileState, setMenuMobileState] = useState(true)
-
-
-
-
-
-
-
+    const [menuMobileState, setMenuMobileState] = useState(false)
 
 
   return (
@@ -39,12 +30,15 @@ const Header = () => {
               {
                menuMobileState
                ? (
-                  <Navbar />
+                  <ul id='ul-mobile'>
+                     <li><a href="#">Inicio</a></li>
+                     <li><a href="#">Promoções</a></li>
+                     <li><a href="#">Pizza</a></li>
+                  </ul>
                )
                : ''
               }
-
-    
+              
 
               <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={32}/>
             </div>

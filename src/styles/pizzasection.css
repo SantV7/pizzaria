@@ -12,6 +12,8 @@
 #planSection > .intro-text {
     font-family: poppins, Arial, Helvetica, sans-serif;
     margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +34,7 @@
 
 
 #planSection > .intro-text > .text-p > p {
-    font-size: 22px;
-    width: 554px;
+    font-size: 20px;
     color: white;
     margin-bottom: 88px;
     text-align: justify;
@@ -86,9 +87,6 @@
     padding: 8px 14px;
     margin-top: 28px;
 }
-
-
-
 
 
 
