@@ -24,14 +24,13 @@ const Header = () => {
               <div className="logo"></div>
 
               <Navbar />
-
               {
                menuMobileState
                ? (
                   <ul id='ul-mobile'>
-                     <li><a href="#">Inicio</a></li>
-                     <li><a href="#">Promoções</a></li>
-                     <li><a href="#">Pizza</a></li>
+                     <li><a href="#header">Inicio</a></li>
+                     <li><a href="#promotion-section">Promoções</a></li>
+                     <li><a href="#planSection">Pizza</a></li>
                   </ul>
                )
                : ''
