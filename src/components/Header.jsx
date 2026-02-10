@@ -15,9 +15,7 @@ const Header = () => {
        })
     }, [])
 
-
     const [menuMobileState, setMenuMobileState] = useState(false)
-
 
   return (
     <>

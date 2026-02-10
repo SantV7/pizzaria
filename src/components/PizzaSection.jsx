@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../styles/pizzasection.css'
 const PizzaSection = () => {
   return (
@@ -39,8 +39,7 @@ const PizzaSection = () => {
                         <li>Chocolate amargo</li>
                         <li>Chocolate Branco</li>
                     </ul>
-                  </div>                                                    
-
+                  </div>                                                   
 
                   <div className="pizza-options">
                       <h3>Sabores Especiais</h3>
@@ -52,9 +51,6 @@ const PizzaSection = () => {
                     </ul>
                   </div>
               </div>
-
-
-      
           </article>
 
         </section>

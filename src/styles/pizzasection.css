@@ -33,8 +33,10 @@
 }
 
 
-#planSection > .intro-text > .text-p > p {
-    font-size: 20px;
+#planSection > .intro-text > .text-p  {
+    width: 75%;
+    font-size: 21.4px;
+    font-weight: 550;
     color: white;
     margin-bottom: 88px;
     text-align: justify;
