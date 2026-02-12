@@ -22,7 +22,7 @@
 
 
 #header > #area_navegation > .logo {
-    margin-top: -116.5px;
+    margin-top: -107.5px;
     background-image: url(../assets/img/pizeria_logo.png);
     background-position: center center;
     background-size: cover;
@@ -59,7 +59,7 @@
     padding-bottom: 4.6px;
     border-radius: 13.5px;
     background-color: rgba(100, 125, 247, 0.088);
-    width: 450px;
+    width: 95%;
     text-transform: uppercase;
     border-bottom: 4px solid rgb(255, 200, 0);
 }
@@ -101,7 +101,7 @@
     #header {
         padding-top: 10px;
     }
-
+/* margin-top: -116.5px; */
     #header > .area_text > #text-wellcome {
         width: 495px;
         font-size: 29.75px;
