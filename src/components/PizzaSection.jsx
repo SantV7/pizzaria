@@ -1,44 +1,61 @@
 
 import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import '../styles/pizzasection.css'
 import { useEffect } from 'react'
 const PizzaSection = () => {
 
-  useEffect(() => {
-    gsap.fromTo('#pizza-options-1', {
-      x: -200,
-      opacity: 0
-    }, {
-      x: 0,
-      duration: 1,
-      opacity: 1,
-      ease: 'power2',
-      delay: 0.1
-    })
+useEffect(() => {
+  gsap.registerPlugin(ScrollTrigger);
+  
+  gsap.fromTo('#pizza-options-1', {
+    x: -200,
+    opacity: 0
+  }, {
+    x: 0,
+    duration: 1,
+    opacity: 1,
+    ease: 'power2',
+    delay: 0.1,
+    scrollTrigger: {
+      trigger: '#pizza-options-1',
+      start: 'top 80%',
+      toggleActions: 'play none none reverse',
+    }
+  })
 
-    gsap.fromTo('#pizza-options-2', {
-      x: 200,
-      opacity: 0
-    }, {
-      x: 0,
-      duration: 1,
-      delay: 0.25,
-      opacity: 1,
-      ease: 'power2'
-    })   
-    
-    gsap.fromTo('#pizza-options-3', {
-      y: 100,
-      opacity: 0
-    }, {
-      y: 0,
-      duration: 1,
-      delay: 0.25,
-      opacity: 1,
-      ease: 'power2'
-    })      
-  }, [])
-
+  gsap.fromTo('#pizza-options-2', {
+    x: 200,
+    opacity: 0
+  }, {
+    x: 0,
+    duration: 1,
+    delay: 0.25,
+    opacity: 1,
+    ease: 'power2',
+    scrollTrigger: {
+      trigger: '#pizza-options-2',
+      start: 'top 80%',
+      toggleActions: 'play none none reverse',
+    }
+  })   
+  
+  gsap.fromTo('#pizza-options-3', {
+    y: 100,
+    opacity: 0
+  }, {
+    y: 0,
+    duration: 1,
+    delay: 0.25,
+    opacity: 1,
+    ease: 'power2',
+    scrollTrigger: {
+      trigger: '#pizza-options-3',
+      start: 'top 80%',
+      toggleActions: 'play none none reverse',
+    }
+  })  
+}, [])
 
 
   
