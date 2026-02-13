@@ -17,48 +17,40 @@ useEffect(() => {
     distance: '65px',
     duration: 1000
   })
-}, [])
-
-useEffect(() => {
+  
   ScrollReveal().reveal('#main-content', {
     reset: true ,
     delay: 135 ,
     distance: '35px',
     duration: 1000
   })
-}, [])
-
-useEffect(() => {
+  
   ScrollReveal().reveal('.all-cards', {
     reset: true ,
     delay: 135 ,
     distance: '65px',
     duration: 1000
   })
-}, [])
-
-useEffect(() => {
+  
   ScrollReveal().reveal('#promotional', {
     reset: true ,
     distance: '60px',
     delay: 200 ,
     duration: 1000
   })
-}, [])
+  }, [])
 
 
 
   return (
      <>
         <main id='main-content'>
-
             <section id='promotion-section'>
                <div id='background-left'>
                   <div className='tomate-folhas'></div>
                   <div className="queijo"></div>
                   <div className="folhabottom"></div>
                </div>
-
 
 
                <div id='center-background' className='area_info_promotion'>
@@ -97,7 +89,6 @@ useEffect(() => {
                      </div>
                   </div>
                </div>
-            
             
                <div id='background-right'>
                   <div className="azeite"></div>
