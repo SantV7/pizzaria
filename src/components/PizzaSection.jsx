@@ -38,6 +38,10 @@ const PizzaSection = () => {
       ease: 'power2'
     })      
   }, [])
+
+
+
+  
   return (
     <>
         <section id='planSection'>
