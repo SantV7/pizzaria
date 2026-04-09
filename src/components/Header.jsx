@@ -5,7 +5,6 @@ import ScrollReveal from 'scrollreveal'
 import '../styles/header.css'
 
 const Header = () => {
-
     useEffect(() => {
        ScrollReveal().reveal('.area_text', {
           reset: true ,
@@ -15,7 +14,7 @@ const Header = () => {
        })
     }, [])
 
-    const [menuMobileState, setMenuMobileState] = useState(false)
+   const [menuMobileState, setMenuMobileState] = useState(false)
 
   return (
     <>
