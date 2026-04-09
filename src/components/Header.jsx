@@ -3,9 +3,13 @@ import Navbar from './Navbar'
 import { FaBars } from "react-icons/fa";
 import ScrollReveal from 'scrollreveal'
 import '../styles/header.css'
+import LogoImg from '../assets/img/secao08-background-capa.jpg'
 
 const Header = () => {
     useEffect(() => {
+       const img = new Image();
+       img.src = LogoImg;
+
        ScrollReveal().reveal('.area_text', {
           reset: true ,
           delay: 15 ,
@@ -18,10 +22,10 @@ const Header = () => {
 
   return (
     <>
-        <header id='header'>
+        <header id='header' style={{ backgroundImage: `linear-gradient(rgba(51, 48, 87, 0.649), rgba(0, 0, 0, 0)), url(${LogoImg})` }}>
             <div id="area_navegation">
               <div className="logo"></div>
-
+              
               <Navbar />
               {
                menuMobileState
@@ -35,7 +39,6 @@ const Header = () => {
                : ''
               }
               
-
               <FaBars onClick={() => setMenuMobileState(!menuMobileState)} id='icon_menubar' size={32}/>
             </div>
 
